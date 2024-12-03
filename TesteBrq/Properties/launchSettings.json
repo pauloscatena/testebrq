@@ -1,12 +1,12 @@
 {
   "profiles": {
-    "TesteBrq": {
+    "Entrada Manual": {
       "commandName": "Project",
       "environmentVariables": {
         "MANUAL_INPUT": "1"
       }
     },
-    "Passando path do arquivo de entrada": {
+    "Informar Arquivo Input": {
       "commandName": "Project",
       "commandLineArgs": "C:\\temp\\teste.txt"
     }
