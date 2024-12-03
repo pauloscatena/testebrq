@@ -8,10 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Services\ClassificationServiceSpecifications\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Update="Resources\TradeInput.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

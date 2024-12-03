@@ -14,9 +14,11 @@ public class ClassificationService: IClassificationService
         _specifications = new List<ISpecification>();
 
         // The order of the specifications defines its precedence
+        _specifications.Add(new PepClassification());
         _specifications.Add(new ExpiredClassification());
         _specifications.Add(new HighRiskClassification());
         _specifications.Add(new MediumRiskClassification());
+        
     }
 
     public IEnumerable<string> Run(ITradeClassifier tradeClassifier)

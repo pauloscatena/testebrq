@@ -9,6 +9,9 @@
     "Informar Arquivo Input": {
       "commandName": "Project",
       "commandLineArgs": "C:\\temp\\teste.txt"
+    },
+    "Utilizar Input de Resources": {
+      "commandName": "Project"
     }
   }
 }
